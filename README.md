@@ -1,4 +1,4 @@
-# Java-Compile-Time-Sanity-Checker
+# Java-Sanity-Checker
 This application parses an input program written in Java and finds various compile-time errors. Additionally, the application can scan a Java program containing arithmetic operations between integers and print out all integer variables and their final values. This was done as coursework for the module ‘Procedural Programming’ and took place over 6 weeks. I achieved 100% in this project. 
 
 # Tokenizer Showcase
