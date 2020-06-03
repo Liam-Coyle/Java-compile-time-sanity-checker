@@ -3,7 +3,7 @@ This application parses an input program written in Java and finds various compi
 
 # Tokenizer Showcase
 ## Input
-![TokenizerExample](/images/TokenizerExample.png)
+![TokenizerExample](/images/TokenizerExampleFixed.png)
 ## Output
 ![TokenizerExample](/images/TokenizerOutput.png)
 
