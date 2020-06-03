@@ -3,7 +3,7 @@ public class TokenizerExample
 {
 	/**
 	 * This class is used to show how the Tokenizer parses a java program
-	 * @author Liam Coyle 40270954 lcoyle21@qub.ac.uk
+	 * @author Liam Coyle lcoyle21@qub.ac.uk
 	 */
 	
 	public static void main(String[] args) 
