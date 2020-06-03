@@ -8,7 +8,7 @@ public class SanityChecker
 	/**
 	 * This application parses an input program written in Java and finds various compile time errors.
 	 * Additionally, the application can scan a Java program containing arithmetic operations between integers and print out all integer variables and their final values.
-	 * @author Liam Coyle 40270954 lcoyle21@qub.ac.uk
+	 * @author Liam Coyle lcoyle21@qub.ac.uk
 	 */
 	
 	//Defines Tokens
