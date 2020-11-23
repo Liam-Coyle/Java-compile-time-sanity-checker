@@ -643,12 +643,12 @@ public class SanityChecker
 				//Assumes tokenType is a keyword until proven otherwise (Saves time checking only once)
 				tokenType = getKeyword(tokenName);
                 
-            	//Determine type
-                if (isBoolean(tokenName)) tokenType = TokenType.BOOLEAN;
-                else if (tokenType == null) tokenType = TokenType.IDENTIFIER;
+            			//Determine type
+                		if (isBoolean(tokenName)) tokenType = TokenType.BOOLEAN;
+               	 		else if (tokenType == null) tokenType = TokenType.IDENTIFIER;
 								
-                //Updates ArrayLists
-                updateArrayLists(tokenName,tokenType,lineNumber);
+                		//Updates ArrayLists
+                		updateArrayLists(tokenName,tokenType,lineNumber);
                 
 				//Update i such that on the next iteration, the string which was placed in the tokenNameArray is skipped
 				i = nextIndex;
