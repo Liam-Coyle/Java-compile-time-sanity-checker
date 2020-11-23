@@ -1119,10 +1119,10 @@ public class SanityChecker
 				
 				//Else if it's not a keyword(Excluding int) and is not a boolean, it must be an identifier
 				else if (tokenType == null && !isBoolean(tokenName))
-                {
-    				tokenType = TokenType.IDENTIFIER; 
-    				updateMiniArrayLists(tokenName,tokenType);
-                }
+                		{
+    					tokenType = TokenType.IDENTIFIER; 
+    					updateMiniArrayLists(tokenName,tokenType);
+                		}
 												
 				//Update i such that on the next iteration, the string which was placed in the miniTokenNameArray is skipped
 				i = nextIndex;
